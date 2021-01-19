@@ -50,7 +50,7 @@ module "iam_user_creation" {
 | env  | Environment name for the user to be created | list(string) | dev, qa, uat, test, prod| yes |
 | iam_users  | Create IAM users with these names | list(string) | nevsa, cordelia, kriste, darleen, wynnie, vonnie, emelita, maurita, devinne, breena | yes |
 
-## Outpus
+## Outputs
 
 Sample outputs
 ```
